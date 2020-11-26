@@ -1,0 +1,27 @@
+﻿.profileDropDown {
+    position: absolute;
+    background-color: white;
+    min-width: 220px;
+    padding: 10px;
+    margin-top: 1%;
+    z-index: 0;
+}
+
+.profileImg {
+    border-radius: 50%;
+    padding: 10%;
+}
+
+.profileDropDown span {
+    display: block;
+    padding: 2%;
+}
+
+.signIn {
+    cursor: pointer;
+    grid-column: 8/11;
+    justify-self: center;
+    align-self: center;
+    vertical-align: middle;
+    height: 100%;
+}

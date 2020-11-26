@@ -1,0 +1,16 @@
+﻿body{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.form {
+    margin-left: 10em;
+    margin-top: 50px;
+}
+.formButton{
+    margin-top: 1em;
+}
+
+.formPassword{
+    margin-bottom: 1em;
+}
