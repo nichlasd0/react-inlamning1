@@ -7,6 +7,7 @@ import {SettingsPage} from '../pages/SettingsPage';
 import {UserContext} from "../shared/provider/UserProvider";
 import BrowserCache from "../shared/utils/BrowserCache";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {PokemonPage} from "../pages/PokemonPage";
 
 
 export const Routes = (props: any) => {
@@ -30,6 +31,7 @@ export const Routes = (props: any) => {
             <Switch>
                 <Route exact path={(RoutingPath.HomePage)} component={HomePage} />
                 <Route exact path={RoutingPath.SignInPage} component={SignInPage} />
+                <Route exact path={RoutingPath.PokemonPage} component={PokemonPage} />
                 <Route exact path={RoutingPath.SettingsPage} component={blockRouteIfNotAuth(SettingsPage)} />
             </Switch>
         </Router>

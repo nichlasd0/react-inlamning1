@@ -20,32 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a741dd-21be-4f1a-a832-74265d5a39e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.inlamning1.dir/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.inlamning1.dir/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.inlamning1.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.inlamning1.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.inlamning1.dir/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.inlamning1.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.inlamning1.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.inlamning1.dir/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/menu/menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigationbar/NavigationBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigationbar/NavigationBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/profile/Profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/profile/Profile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HomePage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SettingsPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SignInPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/Routes.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/RoutingPath.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/css/GlobalCss.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/provider/UserProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/utils/BrowserCache.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useDebounce.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/PokemonPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/api/PokemonAPI.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/api/service/PokemonService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/css/PokemonPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/images/pokemongif.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/images/whospokemon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/interface/PokemonInterface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.inlamning1.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.inlamning1.dir/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.inlamning1.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.inlamning1.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigationbar/NavigationBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigationbar/NavigationBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SignInPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SignInPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/RoutingPath.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/RoutingPath.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +46,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
         <option value="CSS File" />
-        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -79,10 +70,16 @@
         <option value="$PROJECT_DIR$/src/components/menu/menu.tsx" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/profile/Profile.tsx" />
-        <option value="$PROJECT_DIR$/src/pages/SignInPage.tsx" />
-        <option value="$PROJECT_DIR$/src/routes/Routes.tsx" />
-        <option value="$PROJECT_DIR$/src/routes/RoutingPath.ts" />
         <option value="$PROJECT_DIR$/src/components/navigationbar/NavigationBar.tsx" />
+        <option value="$PROJECT_DIR$/src/routes/RoutingPath.ts" />
+        <option value="$PROJECT_DIR$/src/routes/Routes.tsx" />
+        <option value="$PROJECT_DIR$/src/shared/api/service/PokemonService.ts" />
+        <option value="$PROJECT_DIR$/src/shared/api/PokemonAPI.ts" />
+        <option value="$PROJECT_DIR$/src/shared/interface/PokemonInterface.ts" />
+        <option value="$PROJECT_DIR$/src/hooks/useDebounce.ts" />
+        <option value="$PROJECT_DIR$/src/pages/SignInPage.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/PokemonPage.tsx" />
+        <option value="$PROJECT_DIR$/src/shared/css/PokemonPage.css" />
       </list>
     </option>
   </component>
@@ -95,9 +92,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\WorkSpace\ECUtbildning\---React\inlamning1\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -109,8 +108,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606383104888</updated>
-      <workItem from="1606383126187" duration="10876000" />
+      <workItem from="1606383126187" duration="11507000" />
+      <workItem from="1607346326738" duration="2771000" />
     </task>
+    <task id="LOCAL−00001" summary="added a bunch of stuff">
+      <created>1606395107431</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1606395107431</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,8 +133,18 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="added a bunch of stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a bunch of stuff" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="-807" key="Vcs.Push.Dialog.v2" timestamp="1606395113020">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="552" y="-807" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1606395113020" />
   </component>
 </project>

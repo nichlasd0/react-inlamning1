@@ -49,6 +49,9 @@ export default function ButtonAppBar() {
                      <Typography variant="h6" className={classes.title} onClick={() => history.push(RoutingPath.HomePage)}>
                         Home
                     </Typography>
+                    <Typography variant="h6" className={classes.title} onClick={() => history.push(RoutingPath.PokemonPage)}>
+                        Pokemon
+                    </Typography>
                     {/*<Button color="inherit" onClick={() => history.push(RoutingPath.SignInPage)}>Login</Button>*/}
                     {displayUserIfAuth()}
                 </Toolbar>

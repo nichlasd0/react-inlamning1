@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\nichl\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\nichl\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_.19.01" t="ExcludeRecursive" />
+    <e p="C:\Users\nichl\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_.19.00" t="ExcludeRecursive" />
     <e p="C:\WorkSpace\ECUtbildning\---React\inlamning1" t="IncludeFlat">
       <e p="node_modules\@babel\parser" t="IncludeRecursive" />
       <e p="node_modules\@babel\types" t="IncludeRecursive" />
@@ -71,6 +71,7 @@
       <e p="node_modules\anymatch" t="IncludeRecursive" />
       <e p="node_modules\array-union" t="IncludeRecursive" />
       <e p="node_modules\arrify" t="IncludeRecursive" />
+      <e p="node_modules\axios" t="IncludeRecursive" />
       <e p="node_modules\bootstrap" t="IncludeRecursive" />
       <e p="node_modules\callsites" t="IncludeRecursive" />
       <e p="node_modules\camelcase" t="IncludeRecursive" />
