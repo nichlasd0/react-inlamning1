@@ -28,7 +28,7 @@ export const PokemonPage = () => {
         return <div>
             <hr />
             <br />
-            {/*<img src={data?.sprites?.front_default} alt={''} />*/}
+            <img src={data?.sprites?.front_default} alt={''} />
             <h1> name: {data?.name} </h1>
             <h1> weight: {data?.weight} lb</h1>
             <h1> height: {data?.height} in</h1>
@@ -41,6 +41,12 @@ export const PokemonPage = () => {
             fetchDataFromPokemonAPI()
         }
     }, [debouncedSearchTerm])
+    
+    useEffect(() => {
+        return () =>{
+            alert('Hej då!')
+        }
+    },[])
 
     return (
         <div>
@@ -50,5 +56,6 @@ export const PokemonPage = () => {
                 : displayDataWhenDoneLoading()}
         </div>
     )
+    
 }
 

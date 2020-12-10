@@ -4,7 +4,11 @@ export interface PokemonInterface {
     weight?: number;
     height?: number;
     moves?: [];
-    sprites?: object;
+    sprites?: {
+        back_default?: string,
+        front_default?: string
+        
+    }
 
 
 }
